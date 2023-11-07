@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS MEMBER.MEMBER (
+CREATE TABLE IF NOT EXISTS member.member (
   id              BIGSERIAL,
   username        varchar(50),
   password        varchar(255),
