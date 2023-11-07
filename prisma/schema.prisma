@@ -14,8 +14,8 @@ model Member {
   id Int @id @default(autoincrement())
   username String @unique
   password String
-  email String
-  gender_type String
-  name String
-  nickname String
+  email String?
+  gender String?
+  name String?
+  nickname String?
 }

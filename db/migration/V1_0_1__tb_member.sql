@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS member.member (
   username        varchar(50)   NOT NULL,
   password        varchar(255)  NOT NULL,
   email           varchar(255),
-  gender_type     varchar(30),
+  gender          varchar(30),
   name            varchar(50),
   nickname        varchar(50),
 
